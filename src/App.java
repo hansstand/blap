@@ -22,7 +22,7 @@ public class App {
 		Equipement e = player.getEquiement();
 		System.out.println(e);
 		
-		Spellbook book = new Spellbook();
+		//Spellbook book = new Spellbook();
 		Spell spell = new Spell("fireball",1,1,10,5);
 		player.learnSpell(spell);
 		System.out.println(player.getSpellbook().toString());

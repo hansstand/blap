@@ -15,6 +15,7 @@ public class Game {
 	public void addNewPlayerToGame(String name, Type type, boolean male)
 	{
 		player = new Player(name,type,male);
+		players.add(player);
 	}
 	
 	public Player getCurrentPlayer()
