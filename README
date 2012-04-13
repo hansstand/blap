@@ -1,1 +1,35 @@
-help
+
+------ HOE COMMIT IK ? -------
+1. Rechter muisklik op de map --> Git Gui 
+2. bekijk u bestanden da je gaat commiten: change state ( normaal staa nu de lijst onder links)
+3. Commit
+4. !!!! push !!!! -> dan pas staan ze op de server. Commit is enkel lokaal. 
+
+==>> Bin map is pc afhankelijk als je update -> en wordt aan gemaakt als je het project runt
+     dus zonder de map werkt het programma ook.
+
+
+
+
+TODO 
+
+1. MAJOR / SYSTEM CRITICAL
+  1.1 Bin map verwijderen uit de repo. 
+
+
+
+
+2. IMPORTANT /  FUNCTIONAL CRITICAL
+
+
+
+
+3. NORMAL / NON FUNCTIONAL
+
+
+
+
+
+4. NICE TO HAVE 
+
+
