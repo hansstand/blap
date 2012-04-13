@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 import model.*;
 
 
@@ -26,5 +28,8 @@ public class App {
 		Spell spell = new Spell("fireball",1,1,10,5);
 		player.learnSpell(spell);
 		System.out.println(player.getSpellbook().toString());
+		
+		Mob mobNoItems = new Mob("Geen Items",1,new HashMap<Item,Double>());
+		System.out.println(mobNoItems);
 	}
 }

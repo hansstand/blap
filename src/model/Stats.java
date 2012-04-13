@@ -12,10 +12,25 @@ public class Stats {
 	private int defence;
 	private int magicAttack ;
 	private int magicDefence;
+	private int exp;
 	
 	public Stats ()
 	{
 		
+	}
+	public void createNewMobStats(String name, int level)
+	{
+		setName(name);
+		setLevel(level);
+		hp = 50*level;
+		mp = 100*level;
+		intellect = level;
+		strength = level;
+		stamina = level;
+		attack = level;
+		defence  = level;
+		magicAttack = level;
+		magicDefence = level;
 	}
 	
 	public void createNewItemStats(String name,int level)
@@ -91,6 +106,15 @@ public class Stats {
 	}
 	public void setLevel(int level) {
 		this.level = level;
+	}
+	public int getExp()
+	{
+		return exp;
+	}
+	
+	private void setExp(int exp)
+	{
+		this.exp = exp;
 	}
 	
 }
